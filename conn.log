@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='3557' time_ms='1533795182193'>
+<vm_version>
+<name>
+OpenJDK Server VM
+</name>
+<release>
+24.121-b00
+</release>
+<info>
+OpenJDK Server VM (24.121-b00) for linux-x86 JRE (1.7.0_121-b00), built on Feb  7 2017 19:08:33 by &quot;buildd&quot; with gcc 4.6.3
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-XX:+UnlockDiagnosticVMOptions -XX:+PrintAssembly -XX:+DebugNonSafepoints -XX:+LogCompilation -XX:LogFile=conn.log -Dfile.encoding=UTF-8 
+</args>
+<command>
+chapter1.VolatileKeyword
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=24.121-b00
+java.vm.name=OpenJDK Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext
+java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/endorsed
+sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386
+java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+java.home=/usr/lib/jvm/java-7-openjdk-i386/jre
+java.class.path=/home/seed/workspace/conn/bin
+sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+file.encoding=UTF-8
+sun.java.command=chapter1.VolatileKeyword
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='2330610496'/>
+<thread_logfile thread='-1964356800' filename='/tmp/hs_c2330610496_pid3557.log'/>
+<writer thread='2298862400'/>
+<thread_logfile thread='-1996104896' filename='/tmp/hs_c2298862400_pid3557.log'/>
+<writer thread='3059960640'/>
+<task_queued compile_id='1' method='chapter1/VolatileKeyword add (II)I' bytes='17' count='5000' backedge_count='1' iicount='10000' stamp='0.091' comment='count' hot_count='10000'/>
+<writer thread='2330610496'/>
+Could not load hsdis-i386.so; library not loadable; PrintAssembly is disabled
+<nmethod compile_id='1' compiler='C2' entry='0xb344c720' size='436' address='0xb344c648' relocation_offset='200' insts_offset='216' stub_offset='312' scopes_data_offset='332' scopes_pcs_offset='352' dependencies_offset='432' oops_offset='328' method='chapter1/VolatileKeyword add (II)I' bytes='17' count='5000' backedge_count='1' iicount='10000' stamp='0.096'/>
+<writer thread='3059960640'/>
+<task_queued compile_id='2' compile_kind='osr' method='chapter1/VolatileKeyword main ([Ljava/lang/String;)V' bytes='79' count='1' backedge_count='14563' iicount='1' osr_bci='15' stamp='0.096' comment='backedge_count' hot_count='14563'/>
+<writer thread='2298862400'/>
+<nmethod compile_id='2' compile_kind='osr' compiler='C2' entry='0xb344a1c0' size='1404' address='0xb344a0c8' relocation_offset='200' insts_offset='248' stub_offset='920' scopes_data_offset='948' scopes_pcs_offset='1048' dependencies_offset='1384' nul_chk_table_offset='1392' oops_offset='936' method='chapter1/VolatileKeyword main ([Ljava/lang/String;)V' bytes='79' count='10000' backedge_count='6024' iicount='1' stamp='0.100'/>
+<writer thread='3059960640'/>
+<uncommon_trap thread='3059960640' reason='unstable_if' action='reinterpret' compile_id='2' compile_kind='osr' compiler='C2' stamp='0.109'>
+<jvms bci='28' method='chapter1/VolatileKeyword main ([Ljava/lang/String;)V' bytes='79' count='10000' backedge_count='6024' iicount='1'/>
+</uncommon_trap>
+<make_not_entrant thread='3059960640' compile_id='2' compile_kind='osr' compiler='C2' stamp='0.109'/>
+<writer thread='2303212352'/>
+<destroy_vm stamp='0.111'/>
+<tty_done stamp='0.112'/>
+</tty>
+<compilation_log thread='2298862400'>
+<start_compile_thread name='C2 CompilerThread1' thread='2298862400' process='3557' stamp='0.080'/>
+<task compile_id='2' compile_kind='osr' method='chapter1/VolatileKeyword main ([Ljava/lang/String;)V' bytes='79' count='10000' backedge_count='6024' iicount='1' osr_bci='15' stamp='0.097'>
+<phase name='parse' nodes='3' live='3' stamp='0.097'>
+<type id='635' name='void'/>
+<klass id='730' name='[Ljava/lang/String;' flags='1041'/>
+<klass id='729' name='chapter1/VolatileKeyword' flags='1'/>
+<method id='731' holder='729' name='main' return='635' arguments='730' flags='9' bytes='79' iicount='1'/>
+<klass id='736' name='java/lang/System' unloaded='1'/>
+<uncommon_trap method='731' bci='31' reason='unloaded' action='reinterpret' index='31' klass='736'/>
+<parse method='731' uses='1' osr_bci='15' stamp='0.097'>
+<uncommon_trap method='731' bci='31' reason='unloaded' action='reinterpret' index='31' klass='736'/>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='leaf_type' ctxk='729'/>
+<uncommon_trap bci='15' reason='constraint' action='reinterpret'/>
+<uncommon_trap bci='15' reason='predicate' action='maybe_recompile'/>
+<uncommon_trap bci='15' reason='loop_limit_check' action='maybe_recompile'/>
+<bc code='182' bci='18'/>
+<type id='633' name='int'/>
+<method id='734' holder='729' name='add' return='633' arguments='633 633' flags='1' bytes='17' compile_id='1' compiler='C2' iicount='10000'/>
+<dependency type='unique_concrete_method' ctxk='729' x='734'/>
+<call method='734' count='13801' prof_factor='1' inline='1'/>
+<inline_success reason='inline (hot)'/>
+<parse method='734' uses='13801' stamp='0.097'>
+<uncommon_trap bci='18' reason='null_check' action='maybe_recompile'/>
+<parse_done nodes='151' live='146' memory='24876' stamp='0.097'/>
+</parse>
+<bc code='161' bci='28'/>
+<branch target_bci='15' taken='13800' not_taken='0' cnt='13800' prob='always'/>
+<uncommon_trap bci='28' reason='unstable_if' action='reinterpret' comment='taken always'/>
+<parse_done nodes='169' live='163' memory='26596' stamp='0.097'/>
+</parse>
+<phase_done name='parse' nodes='169' live='115' stamp='0.097'/>
+</phase>
+<phase name='optimizer' nodes='169' live='115' stamp='0.097'>
+<phase name='idealLoop' nodes='174' live='108' stamp='0.097'>
+<loop_tree>
+<loop idx='180' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='194' live='106' stamp='0.097'/>
+</phase>
+<phase name='idealLoop' nodes='194' live='106' stamp='0.097'>
+<loop_tree>
+<loop idx='289' inner_loop='1' main_loop='289' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='310' live='200' stamp='0.097'/>
+</phase>
+<phase name='idealLoop' nodes='310' live='200' stamp='0.097'>
+<loop_tree>
+<loop idx='243' inner_loop='1' pre_loop='180' >
+</loop>
+<loop idx='334' inner_loop='1' main_loop='334' >
+</loop>
+<loop idx='205' inner_loop='1' post_loop='180' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='360' live='231' stamp='0.098'/>
+</phase>
+<phase name='ccp' nodes='360' live='231' stamp='0.098'>
+<phase_done name='ccp' nodes='360' live='231' stamp='0.098'/>
+</phase>
+<phase name='idealLoop' nodes='361' live='229' stamp='0.098'>
+<loop_tree>
+<loop idx='243' inner_loop='1' pre_loop='180' >
+</loop>
+<loop idx='334' inner_loop='1' main_loop='334' >
+</loop>
+<loop idx='205' inner_loop='1' post_loop='180' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='392' live='222' stamp='0.098'/>
+</phase>
+<phase name='idealLoop' nodes='392' live='222' stamp='0.098'>
+<loop_tree>
+<loop idx='243' inner_loop='1' pre_loop='180' >
+</loop>
+<loop idx='334' inner_loop='1' main_loop='334' >
+</loop>
+<loop idx='205' inner_loop='1' post_loop='180' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='401' live='206' stamp='0.098'/>
+</phase>
+<phase name='idealLoop' nodes='401' live='206' stamp='0.098'>
+<loop_tree>
+<loop idx='243' inner_loop='1' pre_loop='180' >
+</loop>
+<loop idx='334' inner_loop='1' main_loop='334' >
+</loop>
+<loop idx='205' inner_loop='1' post_loop='180' >
+</loop>
+</loop_tree>
+<phase_done name='idealLoop' nodes='410' live='202' stamp='0.098'/>
+</phase>
+<phase_done name='optimizer' nodes='410' live='202' stamp='0.098'/>
+</phase>
+<phase name='matcher' nodes='410' live='202' stamp='0.098'>
+<phase_done name='matcher' nodes='241' live='241' stamp='0.098'/>
+</phase>
+<phase name='regalloc' nodes='272' live='272' stamp='0.098'>
+<regalloc attempts='3' success='1'/>
+<phase_done name='regalloc' nodes='361' live='331' stamp='0.100'/>
+</phase>
+<phase name='output' nodes='361' live='331' stamp='0.100'>
+<phase_done name='output' nodes='376' live='341' stamp='0.100'/>
+</phase>
+<dependency type='leaf_type' ctxk='729'/>
+<dependency type='unique_concrete_method' ctxk='729' x='734'/>
+<code_cache total_blobs='120' nmethods='2' adapters='71' free_code_cache='50022848' largest_free_block='50011776'/>
+<task_done success='1' nmsize='688' count='10000' backedge_count='6024' inlined_bytes='17' stamp='0.100'/>
+</task>
+</compilation_log>
+<compilation_log thread='2330610496'>
+<start_compile_thread name='C2 CompilerThread0' thread='2330610496' process='3557' stamp='0.076'/>
+<task compile_id='1' method='chapter1/VolatileKeyword add (II)I' bytes='17' count='5000' backedge_count='1' iicount='10000' stamp='0.091'>
+<phase name='matcher' nodes='43' live='43' stamp='0.091'>
+<phase_done name='matcher' nodes='32' live='32' stamp='0.092'/>
+</phase>
+<phase name='regalloc' nodes='37' live='37' stamp='0.092'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='46' live='41' stamp='0.092'/>
+</phase>
+<phase name='output' nodes='46' live='41' stamp='0.092'>
+<phase_done name='output' nodes='53' live='47' stamp='0.092'/>
+</phase>
+<phase name='matcher' nodes='44' live='44' stamp='0.092'>
+<phase_done name='matcher' nodes='33' live='33' stamp='0.092'/>
+</phase>
+<phase name='regalloc' nodes='38' live='38' stamp='0.092'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='49' live='43' stamp='0.092'/>
+</phase>
+<phase name='output' nodes='49' live='43' stamp='0.092'>
+<phase_done name='output' nodes='56' live='49' stamp='0.092'/>
+</phase>
+<phase name='matcher' nodes='44' live='44' stamp='0.092'>
+<phase_done name='matcher' nodes='33' live='33' stamp='0.092'/>
+</phase>
+<phase name='regalloc' nodes='38' live='38' stamp='0.092'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='49' live='43' stamp='0.092'/>
+</phase>
+<phase name='output' nodes='49' live='43' stamp='0.092'>
+<phase_done name='output' nodes='56' live='49' stamp='0.092'/>
+</phase>
+<phase name='matcher' nodes='45' live='45' stamp='0.092'>
+<phase_done name='matcher' nodes='34' live='34' stamp='0.092'/>
+</phase>
+<phase name='regalloc' nodes='39' live='39' stamp='0.092'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='52' live='46' stamp='0.093'/>
+</phase>
+<phase name='output' nodes='52' live='46' stamp='0.093'>
+<phase_done name='output' nodes='59' live='52' stamp='0.093'/>
+</phase>
+<phase name='matcher' nodes='46' live='46' stamp='0.093'>
+<phase_done name='matcher' nodes='35' live='35' stamp='0.093'/>
+</phase>
+<phase name='regalloc' nodes='40' live='40' stamp='0.093'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='55' live='49' stamp='0.093'/>
+</phase>
+<phase name='output' nodes='55' live='49' stamp='0.093'>
+<phase_done name='output' nodes='62' live='55' stamp='0.093'/>
+</phase>
+<phase name='matcher' nodes='47' live='47' stamp='0.093'>
+<phase_done name='matcher' nodes='36' live='36' stamp='0.093'/>
+</phase>
+<phase name='regalloc' nodes='41' live='41' stamp='0.093'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='58' live='52' stamp='0.093'/>
+</phase>
+<phase name='output' nodes='58' live='52' stamp='0.093'>
+<phase_done name='output' nodes='65' live='58' stamp='0.093'/>
+</phase>
+<phase name='matcher' nodes='48' live='48' stamp='0.093'>
+<phase_done name='matcher' nodes='37' live='37' stamp='0.093'/>
+</phase>
+<phase name='regalloc' nodes='42' live='42' stamp='0.093'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='61' live='55' stamp='0.093'/>
+</phase>
+<phase name='output' nodes='61' live='55' stamp='0.093'>
+<phase_done name='output' nodes='68' live='61' stamp='0.093'/>
+</phase>
+<phase name='matcher' nodes='44' live='44' stamp='0.093'>
+<phase_done name='matcher' nodes='33' live='33' stamp='0.093'/>
+</phase>
+<phase name='regalloc' nodes='38' live='38' stamp='0.093'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='49' live='43' stamp='0.093'/>
+</phase>
+<phase name='output' nodes='49' live='43' stamp='0.093'>
+<phase_done name='output' nodes='56' live='49' stamp='0.093'/>
+</phase>
+<phase name='matcher' nodes='39' live='39' stamp='0.093'>
+<phase_done name='matcher' nodes='31' live='31' stamp='0.094'/>
+</phase>
+<phase name='regalloc' nodes='36' live='36' stamp='0.094'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='45' live='41' stamp='0.094'/>
+</phase>
+<phase name='output' nodes='45' live='41' stamp='0.094'>
+<phase_done name='output' nodes='52' live='47' stamp='0.094'/>
+</phase>
+<phase name='matcher' nodes='39' live='39' stamp='0.094'>
+<phase_done name='matcher' nodes='31' live='31' stamp='0.094'/>
+</phase>
+<phase name='regalloc' nodes='36' live='36' stamp='0.094'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='45' live='41' stamp='0.094'/>
+</phase>
+<phase name='output' nodes='45' live='41' stamp='0.094'>
+<phase_done name='output' nodes='52' live='47' stamp='0.094'/>
+</phase>
+<phase name='matcher' nodes='39' live='39' stamp='0.094'>
+<phase_done name='matcher' nodes='31' live='31' stamp='0.094'/>
+</phase>
+<phase name='regalloc' nodes='36' live='36' stamp='0.094'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='45' live='41' stamp='0.094'/>
+</phase>
+<phase name='output' nodes='45' live='41' stamp='0.094'>
+<phase_done name='output' nodes='52' live='47' stamp='0.094'/>
+</phase>
+<phase name='matcher' nodes='43' live='43' stamp='0.094'>
+<phase_done name='matcher' nodes='33' live='33' stamp='0.094'/>
+</phase>
+<phase name='regalloc' nodes='38' live='38' stamp='0.094'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='52' live='46' stamp='0.094'/>
+</phase>
+<phase name='output' nodes='52' live='46' stamp='0.094'>
+<phase_done name='output' nodes='59' live='52' stamp='0.094'/>
+</phase>
+<phase name='matcher' nodes='42' live='42' stamp='0.094'>
+<phase_done name='matcher' nodes='34' live='34' stamp='0.094'/>
+</phase>
+<phase name='regalloc' nodes='39' live='39' stamp='0.094'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='54' live='50' stamp='0.094'/>
+</phase>
+<phase name='output' nodes='54' live='50' stamp='0.094'>
+<phase_done name='output' nodes='61' live='56' stamp='0.095'/>
+</phase>
+<phase name='matcher' nodes='38' live='38' stamp='0.095'>
+<phase_done name='matcher' nodes='30' live='30' stamp='0.095'/>
+</phase>
+<phase name='regalloc' nodes='35' live='35' stamp='0.095'>
+<regalloc attempts='0' success='1'/>
+<phase_done name='regalloc' nodes='42' live='39' stamp='0.095'/>
+</phase>
+<phase name='output' nodes='42' live='39' stamp='0.095'>
+<phase_done name='output' nodes='49' live='45' stamp='0.095'/>
+</phase>
+<phase name='parse' nodes='3' live='3' stamp='0.095'>
+<type id='633' name='int'/>
+<klass id='729' name='chapter1/VolatileKeyword' flags='1'/>
+<method id='730' holder='729' name='add' return='633' arguments='633 633' flags='1' bytes='17' iicount='10000'/>
+<parse method='730' uses='10000' stamp='0.095'>
+<parse_done nodes='45' live='44' memory='14036' stamp='0.095'/>
+</parse>
+<phase_done name='parse' nodes='46' live='29' stamp='0.095'/>
+</phase>
+<phase name='optimizer' nodes='46' live='29' stamp='0.095'>
+<phase name='ccp' nodes='46' live='29' stamp='0.095'>
+<phase_done name='ccp' nodes='46' live='29' stamp='0.095'/>
+</phase>
+<phase name='idealLoop' nodes='46' live='29' stamp='0.095'>
+<phase_done name='idealLoop' nodes='46' live='29' stamp='0.095'/>
+</phase>
+<phase_done name='optimizer' nodes='46' live='29' stamp='0.095'/>
+</phase>
+<phase name='matcher' nodes='46' live='29' stamp='0.095'>
+<phase_done name='matcher' nodes='36' live='36' stamp='0.095'/>
+</phase>
+<phase name='regalloc' nodes='38' live='38' stamp='0.095'>
+<regalloc attempts='2' success='1'/>
+<phase_done name='regalloc' nodes='43' live='42' stamp='0.095'/>
+</phase>
+<phase name='output' nodes='43' live='42' stamp='0.095'>
+<phase_done name='output' nodes='49' live='48' stamp='0.095'/>
+</phase>
+<code_cache total_blobs='119' nmethods='1' adapters='71' free_code_cache='50024320' largest_free_block='50018304'/>
+<task_done success='1' nmsize='112' count='5000' backedge_count='1' stamp='0.096'/>
+</task>
+</compilation_log>
+<hotspot_log_done stamp='0.112'/>
+</hotspot_log>
